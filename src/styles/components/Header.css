@@ -1,0 +1,29 @@
+.Header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.Header-title {
+    color: rgb(10, 10, 10);
+}
+.Header-checkout {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+    width: 30px;
+    margin: 0 0 0 0.5em;
+    font-size: 25px;
+}
+.Header-alert {
+    position: absolute;
+    top: 18px;
+    right: 1px;
+    color: #33b13a;
+    font-weight: bold;
+    font-size: 14px;
+}
+.Header a {
+    text-decoration: none;
+    color: #33b1ff;
+}
